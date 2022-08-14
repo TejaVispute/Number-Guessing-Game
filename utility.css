@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.left-1:hover {
+    font-size: 45px;
+}
+
+.left-2:hover {
+    font-size: 45px;
+}
+
+.left-3:hover {
+    font-size: 45px;
+}
+
+.btn button:hover {
+    font-size: 20px;
+}
+
+.answer-text {
+    transition: 0.2s ease;
+}

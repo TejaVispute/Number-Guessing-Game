@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random number Gussing Game</title>
+    <link href="/style.css" rel="stylesheet">
+    <link href="/utility.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gulzar&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!--  This is left side of our application-->
+        <div class="left-container">
+            <h1> ---Some Good Lines---</h1>
+            <h3>1.The sword of revolution is sharpened on the whetting stone of ideas ~ Bhagat Singh. </h3>
+            <h3>2.Satyamev Jayate ~ Mohan Malviya.</h3>
+            <h3>3.One individual may die for an idea, but that idea will, after his death, incarnate itself in a
+                thousand lives ~ Subhas Chandra Bose.</h3>
+
+
+
+            <div class="flag">
+                <div class="orange"></div>
+                <div class="white">
+                    <div class="circle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <div class="green"></div>
+            </div>
+
+
+            <div class="left-1 ">Testbook</div>
+            <div class="left-2 ">Skill</div>
+            <div class="left-3 "> Academy</div>
+
+
+            <div class="flagwave"></div>
+
+            <!-- flag html ends here -->
+
+
+
+
+        </div>
+
+
+        <section class="section-container">
+
+            <!-- This is upper section for our flag color  orange-->
+            <div class="upper-section">
+                <header class="heading">
+                    <h1>---Number Gussing Game--- </h1>
+                </header>
+
+                <div class="info">
+                    <p>Try and guess a random number between 1 and 100.</p>
+                    <p>You have 10 attempts to guess the right number.</p>
+                </div>
+            </div>
+            <!-- This is upper section ends here-->
+
+            <!-- This is middle section for our flag color white -->
+
+
+            <div class="middle-section">
+                <div class="heading">
+                    <h2>Guess A Number 🤔</h2>
+                </div>
+
+                <div class="input-section">
+                    <input type="text" id="input-val">
+                </div>
+
+                <div class="btn">
+                    <button class="check" onclick="guessfun()">
+                        SUBMIT
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- This is middle section ends here -->
+
+            <!-- this is bottom section for our flag cplor green -->
+            <div class="bottom-section">
+
+
+
+                <p class="answer-text2">Number of Guesses 0</p>
+                <p class="answer-text3"> Guessed Number are</p>
+                <p class="answer-text"></p>
+                <p class="madeby">Made By : Tejas Vispute</p>
+            </div>
+
+            <!-- this is bottom section ends here-->
+        </section>
+
+
+    </div>
+    <script src="/index.js"></script>
+</body>
+
+</html>
